@@ -118,8 +118,8 @@ regexp("https://space.bilibili.com/\\d+/favlist\\?fid=\\d+.*") {
     justify-self: center;
   }
 }
-@-moz-document url-prefix("https://www.bilibili.com/video/") 
-    url-prefix("https://www.bilibili.com/medialist/play/watchlater/"), /* 稍后再看 */
+@-moz-document url-prefix("https://www.bilibili.com/video/"), 
+    url-prefix("https://www.bilibili.com/list/watchlater"), /* 稍后再看 */
     url-prefix("https://www.bilibili.com/festival/")/* 拜年祭、活动页面 */ {
   /* ====== 视频收藏界面 ====== */
   /* 收藏弹窗. 宽度拉宽指定长度(本想设置成可变长度的70vw, 但效果不太好) */
